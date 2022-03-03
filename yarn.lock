@@ -2966,6 +2966,11 @@ value-or-function@^3.0.0:
   resolved "https://registry.yarnpkg.com/value-or-function/-/value-or-function-3.0.0.tgz#1c243a50b595c1be54a754bfece8563b9ff8d813"
   integrity sha1-HCQ6ULWVwb5Up1S/7OhWO5/42BM=
 
+value-or-function@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/value-or-function/-/value-or-function-4.0.0.tgz#70836b6a876a010dc3a2b884e7902e9db064378d"
+  integrity sha512-aeVK81SIuT6aMJfNo9Vte8Dw0/FZINGBV8BfCraGtqVxIeLAEhJyoWs8SmvRVmXfGss2PmmOwZCuBPbZR+IYWg==
+
 vinyl-sourcemap@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/vinyl-sourcemap/-/vinyl-sourcemap-1.1.0.tgz#92a800593a38703a8cdb11d8b300ad4be63b3e16"
