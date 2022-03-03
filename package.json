@@ -26,7 +26,7 @@
   "dependencies": {
     "fs-mkdirp-stream": "^1.0.0",
     "glob-stream": "^6.1.0",
-    "graceful-fs": "^4.0.0",
+    "graceful-fs": "^4.2.9",
     "iconv-lite": "^0.4.24",
     "is-valid-glob": "^1.0.0",
     "lazystream": "^1.0.0",
