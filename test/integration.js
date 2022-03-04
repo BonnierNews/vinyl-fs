@@ -15,6 +15,7 @@ var testConstants = require('./utils/test-constants');
 
 var pipe = miss.pipe;
 var concat = miss.concat;
+var finished = miss.finished;
 
 var count = testStreams.count;
 
@@ -53,9 +54,10 @@ describe('integrations', function() {
 
     pipe([
       vfs.src(inputGlob, { buffer: false }),
-      count(expectedCount),
       vfs.dest(outputBase),
     ], done);
+
+    finished(vfs.dest(outputBase), count(expectedCount) )
   });
 
   it('(*nix) sources a directory, creates a symlink and copies it', function(done) {
