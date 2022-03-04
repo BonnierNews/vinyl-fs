@@ -55,7 +55,7 @@ describe('integrations', function() {
       vfs.src(inputGlob, { buffer: false }),
       count(expectedCount),
       vfs.dest(outputBase),
-    ],null, done);
+    ], done);
   });
 
   it('(*nix) sources a directory, creates a symlink and copies it', function(done) {
