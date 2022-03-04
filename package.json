@@ -23,9 +23,6 @@
     "pretest": "yarn lint",
     "test": "mocha --async-only --exit"
   },
-  "needs-bumping": {
-    "glob-stream": "breaks integration + dest"
-  },
   "dependencies": {
     "fs-mkdirp-stream": "^1.0.0",
     "glob-stream": "^7.0.0",
