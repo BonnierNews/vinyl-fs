@@ -710,13 +710,13 @@ from2@^2.1.0:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
 
-fs-mkdirp-stream@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/fs-mkdirp-stream/-/fs-mkdirp-stream-1.0.0.tgz#0b7815fc3201c6a69e14db98ce098c16935259eb"
-  integrity sha512-+vSd9frUnapVC2RZYfL3FCB2p3g4TBhaUmrsWlSudsGdnxIuUvBB2QM1VZeBtc49QFwrp+wQLrDs3+xxDgI5gQ==
+fs-mkdirp-stream@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/fs-mkdirp-stream/-/fs-mkdirp-stream-2.0.0.tgz#99ca45cc99de9c0d9353c690f81a36a0cb24c548"
+  integrity sha512-RNlqlWXDaaWLy44K6ybdVcikzajTX3UA6jRhXbe4nUXXhycQKdTcaSoddCQzgs1iXStxqUAmLckasRcsJuNsPQ==
   dependencies:
-    graceful-fs "^4.1.11"
-    through2 "^2.0.3"
+    graceful-fs "^4.2.8"
+    streamx "^2.12.0"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
@@ -853,7 +853,7 @@ globby@^11.1.0:
     merge2 "^1.4.1"
     slash "^3.0.0"
 
-graceful-fs@^4.1.11, graceful-fs@^4.1.6, graceful-fs@^4.2.10:
+graceful-fs@^4.1.6, graceful-fs@^4.2.10, graceful-fs@^4.2.8:
   version "4.2.10"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.10.tgz#147d3a006da4ca3ce14728c7aefc287c367d7a6c"
   integrity sha512-9ByhssR2fPVsNZj478qUUbKfmL0+t5BDVyjShtyZZLiK7ZDAArFFfopyOTj0M05wE2tJPisA4iTnnXl2YoPvOA==
@@ -1783,10 +1783,10 @@ stream-shift@^1.0.0:
   resolved "https://registry.yarnpkg.com/stream-shift/-/stream-shift-1.0.1.tgz#d7088281559ab2778424279b0877da3c392d5a3d"
   integrity sha512-AiisoFqQ0vbGcZgQPY1cdP2I76glaVA/RauYR4G4thNFgkTqr90yXTo4LYX60Jl+sIlPNHHdGSwo01AvbKUSVQ==
 
-streamx@^2.6.0:
-  version "2.12.4"
-  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.12.4.tgz#0369848b20b8f79c65320735372df17cafcd9aff"
-  integrity sha512-K3xdIp8YSkvbdI0PrCcP0JkniN8cPCyeKlcZgRFSl1o1xKINCYM93FryvTSOY57x73pz5/AjO5B8b9BYf21wWw==
+streamx@^2.12.0, streamx@^2.6.0:
+  version "2.12.5"
+  resolved "https://registry.yarnpkg.com/streamx/-/streamx-2.12.5.tgz#485d6b6bf74df6f94bc1cc262e67392ed6862dc0"
+  integrity sha512-Y+nkFw57Z5JHT3zLlqFm3GccOy2FeYdUrrqita6Dd8kr/8enPn9GKa8IYf3/DmEKfZl/E2sWoSKUnd4qhonrgg==
   dependencies:
     fast-fifo "^1.0.0"
     queue-tick "^1.0.0"
