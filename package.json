@@ -10,7 +10,7 @@
   "repository": "BonnierNews/vinyl-fs",
   "license": "MIT",
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=16.5 <=18"
   },
   "main": "index.js",
   "files": [
