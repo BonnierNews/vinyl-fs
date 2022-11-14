@@ -1,6 +1,6 @@
 {
   "name": "vinyl-fs",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "Vinyl adapter for the file system.",
   "author": "Gulp Team <team@gulpjs.com> (http://gulpjs.com/)",
   "contributors": [
@@ -10,7 +10,7 @@
   "repository": "BonnierNews/vinyl-fs",
   "license": "MIT",
   "engines": {
-    "node": ">=16.5 <=19"
+    "node": ">=16 <=18"
   },
   "main": "index.js",
   "files": [
