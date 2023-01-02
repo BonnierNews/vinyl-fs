@@ -33,7 +33,7 @@
     "lead": "^4.0.0",
     "object.assign": "^4.1.4",
     "pumpify": "^2.0.1",
-    "readable-stream": "^3.6.0",
+    "readable-stream": "^4.3.0",
     "remove-bom-buffer": "^3.0.0",
     "remove-bom-stream": "^1.2.0",
     "resolve-options": "^2.0.0",
