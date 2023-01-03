@@ -41,7 +41,7 @@
     "to-through": "^2.0.0",
     "value-or-function": "^4.0.0",
     "vinyl": "3.0.0",
-    "vinyl-sourcemap": "^1.1.0"
+    "vinyl-sourcemap": "^2.0.0"
   },
   "devDependencies": {
     "eslint": "8.27.0",
