@@ -1,5 +1,7 @@
 ## BN fork
 
+As of 2023-12-15 this project is no longer used, and the repo has been archived.
+
 ![Build Status](https://github.com/BonnierNews/vinyl-fs/actions/workflows/node.js.yml/badge.svg)
 
 This is a fork of Gulp.js [vinyl-fs](https://github.com/gulpjs/vinyl-fs) repo, which is the repo for [vinyl-fs](https://www.npmjs.com/package/vinyl-fs) on npm.
